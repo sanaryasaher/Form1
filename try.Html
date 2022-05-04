@@ -1,0 +1,132 @@
+<!Doctype Html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+
+        <title>Responsive Register Form</title>
+        <link rel="stylesheet" href="stylee.css">
+        <meta name="viewport" contents="width=device-width">
+        <style media="screen">
+            #custom-button{
+                padding: 10px;
+                background-color: #009578;
+                border: 1px solid #000;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            #custom-text button:hover{
+                background-color: #00b28f;
+
+            }
+           #custom-text{
+               margin-left: 10px;
+               font-family: sans-serif;
+               color: #000;
+
+           }
+
+    
+            
+        </style>
+        
+        
+        
+
+    </head>
+    <body>
+        
+    
+        <div class="container"><!-- The Name of div-->
+            <div class="title">Registaration</div>
+            <form action="#">
+                <!-- 1 -->
+                <div class="user">
+                    <div class="input-box">
+                        <span class="details">Full name</span> <!-- for color-->
+                        <input type="text" placeholder="Enter Your Name" required>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="user">
+                    <div class="input-box">
+                        <span class="details">User Name</span>
+                        <input type="text" placeholder="Enter Your User Name" required>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="user">
+                    <div class="input-box">
+                        <span class="details">Email</span>
+                        <input type="text" placeholder="Enter Your E-Mail" required>
+                    </div>
+                </div>
+                <!-- 4 -->
+                <div class="user">
+                    <div class="input-box">
+                        <span class="details">Phone Number</span>
+                        <input type="text" placeholder="Enter Your Number" required>
+                    </div>
+                </div>
+                <!-- 5 -->
+                <div class="user">
+                    <div class="input-box">
+                        <span class="details">Password</span>
+                        <input type="text" placeholder="Enter Your Password" required>
+                    </div>
+                </div>
+                <!-- 6 -->
+                <div class="user">
+                    <div class="input-box">
+                        <span class="details">Confirm Password</span>
+                        <input type="text" placeholder="Confirm your Password" required>
+                    </div>
+                </div>
+                     
+                <div class="gender-details">
+                         <input type="radio" name="gender" id="dot-1">
+                         <input type="radio" name="gender" id="dot-2">
+                         <span class="gender-title">Gender</span>
+                         <div class="category">
+                             <label for="dot-1">
+                                 <span class="dot one"></span>
+                                 <span class="gender">Male</span>
+
+                             </label>
+                             <label for="dot-2">
+                                <span class="dot two"></span>
+                                <span class="gender">Female</span>
+                            </label>
+
+                        </div>
+                        <!-- <input type="file" id="real-file" hidden="hidden"> 
+                        <button type="button" id="custom-button">CHOOSE A FILE</button>
+                        <span id="custom-text">NO FIle Choosen Yet</span>
+                        <script type="text/javascript">
+                            const realFileBtn=document.getElementById("real-file");
+                            const customButton=document.getElementById("custom-button");
+                            const customText=document.getElementById("custom-text");
+                            customButton.oddEventListenar("click" , function(){
+                                realFileBtn.click();
+
+
+                            });
+
+
+                        </script>-->
+                        <div class="con">
+                            <input  type="file" />
+
+                        </div>
+                        <br>
+
+                </div>
+                     <div class="button">
+                         <input type="submit" value="Register">
+                    </div>
+
+            </div>
+            </form>
+        </div>
+    </body>
+</html>
+
